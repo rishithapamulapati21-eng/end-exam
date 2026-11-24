@@ -1,0 +1,29 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <h2>Personal Portfolio</h2>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>My Profile</h1>
+  <h2>Welcome to My Page</h2>
+
+  <img id="pic" src="rishitha-1.jpeg" width="200">
+
+  <br><br>
+
+  <button onclick="toggleImage()">Toggle Image</button>
+
+  <script>
+    function toggleImage() {
+      let img = document.getElementById("pic");
+
+      if (img.style.display === "none")
+        img.style.display = "block";
+      else
+        img.style.display = "none";
+    }
+  </script>
+</body>
+</html>
